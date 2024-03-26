@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+    padding: 0;
+    background-color:bisque;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+h1 { 
+    text-align: center;
+}
+.name {
+    text-align: center;
+    margin: 20px;
+}
+.name img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.count {
+    margin: 0 10px;
+    font-size: 24px;
+}
